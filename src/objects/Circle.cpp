@@ -18,6 +18,7 @@ Circle::Circle(const glm::vec2& position,
     }
 }
 
+
 Circle::Circle() {
 
     position = glm::vec2(0, 0);
@@ -26,6 +27,7 @@ Circle::Circle() {
     inverseMass = 1.f/1.f;
     radius = 1;
 }
+
 
 void Circle::draw() {
     Draw::circle(position, radius);

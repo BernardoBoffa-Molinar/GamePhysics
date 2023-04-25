@@ -18,5 +18,8 @@ public:
 
 private:
     glm::vec2 circlePosition;
+    glm::vec2 circleVelocity = glm::vec2(0);
+    glm::vec2 circleAcceleration = glm::vec2(0, -9.81f);
     float circleRadius;
+    float groundY = 0;
 };
